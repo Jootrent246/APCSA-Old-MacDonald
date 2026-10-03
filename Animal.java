@@ -1,12 +1,14 @@
 public class Animal{
-    public String soundOfAnimal;
-    public String typeOfAnimal;
-    public String getSound(String sound){
-      soundOfAnimal = sound;
-      return soundOfAnimal;
+    public String sound;
+    public String type;
+    public Animal (String sound, String type){
+      this.sound = sound;
+      this.type= type;
     }
-    public String getType(String typeAnimal){
-      typeOfAnimal = typeAnimal;
-      return typeOfAnimal;
+    public String getType(){
+      return sound;
+    }
+    public String getSound(){
+      return type;
     }
 }
