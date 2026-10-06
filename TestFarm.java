@@ -11,7 +11,7 @@ public class TestFarm{
         System.out.println(myChick.getType() + " goes " + myChick.getSound());
         Pig myPig = new Pig("Pig", "Oink");
         System.out.println(myPig.getType() + " goes " + myPig.getSound());
-        NamedCow myNamedCow = new NamedCow("Cow", "Moo", "Trent");
+        NamedCow myNamedCow = new NamedCow("Cow", "Moo", "Tim");
         System.out.println("The cow is known as " + myNamedCow.getCowName());
     }
 }
