@@ -8,6 +8,7 @@
  public void animalSounds () {
  for (int i = 0; i < a . length ; i ++) {
  System . out . println ( a [ i ]. getType () + " goes " + a [ i ]. getSound () ) ;
+ System . out . println ("The cow is known as " +(( NamedCow ) a [0]) . getCowName () ) ;
         }
     }
  }

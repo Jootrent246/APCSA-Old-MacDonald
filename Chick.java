@@ -1,8 +1,15 @@
 public class Chick extends Animal{
+    public int choice = (int) (Math.random() * 2);
+    private String chickSound;
     public Chick (String type, String sound){
         super(type, sound);
         this.type = type;
-        this.sound = sound;
+        if (choice == 0){
+         chickSound = "Cluck";
+        }else if (choice == 1){
+        chickSound = "Cheep";
+        }
+        this.sound = chickSound;
     }
     @Override
     public String getType(){
