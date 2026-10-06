@@ -1,3 +1,8 @@
+/*
+* Chick
+* Trent Hardacre
+* Returns the chick type and sound
+*/
 public class Chick extends Animal{
     public int choice = (int) (Math.random() * 2);
     private String chickSound;

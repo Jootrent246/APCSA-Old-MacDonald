@@ -1,3 +1,8 @@
+/*
+* Animal
+* Trent Hardacre
+* A superclass that subclasses could inherit from
+*/
 public class Animal{
     public String sound;
     public String type;

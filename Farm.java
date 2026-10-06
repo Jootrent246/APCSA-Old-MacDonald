@@ -1,4 +1,9 @@
- public class Farm {
+/*
+* Farm
+* Trent Hardacre
+* Displays the sounds animals make and the name of a cow
+*/
+public class Farm {
  private Animal [] a = new Animal [3];
  Farm () {
  a [0] = new Cow ("cow","moo") ;
