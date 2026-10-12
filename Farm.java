@@ -8,7 +8,7 @@ public class Farm {
  Farm () {
  a [0] = new NamedCow ("cow","moo", "Rex") ; 
  a [1] = new Chick ("chick","cluck ") ;
- a [2] = new Pig ("pig"," oink ") ;
+ a [2] = new Pig ("pig","oink ") ;
     }
  public void animalSounds () {
  for (int i = 0; i < a . length ; i ++) {
