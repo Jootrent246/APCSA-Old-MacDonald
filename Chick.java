@@ -10,9 +10,9 @@ public class Chick extends Animal{
         super(type, sound);
         this.type = type;
         if (choice == 0){
-         chickSound = "Cluck";
+         chickSound = "cluck";
         }else if (choice == 1){
-        chickSound = "Cheep";
+        chickSound = "cheep";
         }
         this.sound = chickSound;
     }

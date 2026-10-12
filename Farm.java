@@ -7,7 +7,7 @@ public class Farm {
  private Animal [] a = new Animal [3];
  Farm () {
  a [0] = new NamedCow ("cow","moo", "Rex") ; 
- a [1] = new Chick ("chick "," cluck ") ;
+ a [1] = new Chick ("chick","cluck ") ;
  a [2] = new Pig ("pig"," oink ") ;
     }
  public void animalSounds () {
